@@ -14,6 +14,7 @@ setup(
     packages     = find_packages(),
     include_package_data = True,
     long_description = open('README.rst').read(),
+    zip_safe     = False,
     classifiers  = [
          'Environment :: Web Environment',
          'Framework :: Django',
